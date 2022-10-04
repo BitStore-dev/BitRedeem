@@ -1,0 +1,4 @@
+{
+    "thread_count": 10, //How many threads
+    "uses_on_ccs": 5 //How often each cc should be used
+}

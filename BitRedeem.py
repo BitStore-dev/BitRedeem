@@ -571,8 +571,8 @@ if __name__ == "__main__":
 
     new_list = []
 
-    with open("config.json", "r") as jsonfile:
-        config = json.load(jsonfile)
+    with open("config.json", "r") as config:
+        config = json.load(config)
 
     uses_on_ccs = config["uses_on_ccs"]
     thread_count = config["thread_count"]
